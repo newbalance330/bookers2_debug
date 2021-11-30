@@ -6,6 +6,7 @@ class BookCommentsController < ApplicationController
     comment.book_id = book.id
     comment.save
     redirect_to request.referer
+
   end
 
   def destroy

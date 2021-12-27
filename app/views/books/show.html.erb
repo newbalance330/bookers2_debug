@@ -17,7 +17,6 @@
           </td>
           <td><%= link_to @book.title, book_path(@book) %></td>
           <td><%= @book.body %></td>
-
            <%= render "favorites/favorite", book: @book %>
           </td>
           <td class="comments-count">
